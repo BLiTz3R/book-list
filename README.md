@@ -1,4 +1,4 @@
-# Book List v0.1
+# Book List v0.2
 A simple OOP JS book list
 
 v0.1: UI only.
