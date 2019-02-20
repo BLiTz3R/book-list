@@ -1,5 +1,5 @@
-# Book List v0.2
-A simple JS OOP book list
+# Book List v0.3
+A simple JS OOP book list, using ES5 and ES6.
 
 v0.1: UI only.
 
