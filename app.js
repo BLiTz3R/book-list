@@ -24,6 +24,13 @@ UI.prototype.addBookToList = function(book) {
     list.appendChild(row);
 }
 
+// Delete book
+UI.prototype.deleteBook = function(target) {
+    if (target.className === 'delete') {
+        target.parentElement.parentElement.remove();
+    }
+}
+
 // Show alert
 UI.prototype.showAlert = function(message, className) {
     // Create div
@@ -42,14 +49,6 @@ UI.prototype.showAlert = function(message, className) {
     setTimeout(function() {
         document.querySelector('.alert').remove();
     }, 3000)
-
-}
-
-// Delete book
-UI.prototype.deleteBook = function(target) {
-    if (target.className === 'delete') {
-        target.parentElement.parentElement.remove();
-    }
 }
 
 // Clear input fields
